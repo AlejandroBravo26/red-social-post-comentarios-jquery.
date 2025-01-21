@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Social - Gestión de Posts y Comentarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="https://cobcm.net/wp-content/uploadssite3/sites/3/2019/11/%C2%BFEn-qu%C3%A9-regi%C3%B3n-del-mundo-habita-la-mayor-parte-de-la-diversidad-biol%C3%B3gica.jpg" alt="Fondo de la red social">
+        <h1>Red Social - Gestión de Posts y Comentarios</h1>
+    </header>
+
+    <main>
+        <section class="image-section">
+        </section>
+        <section id="create-post">
+            <h2>Crear Nuevo Post</h2>
+            <input type="text" id="post-title" placeholder="Título del post" />
+            <textarea id="post-description" placeholder="Descripción del post"></textarea>
+            <button id="create-post-btn">Crear Post</button>
+        </section>
+
+        <section id="post-list">
+            <h2>Posts</h2>
+            <input type="text" id="search" placeholder="Buscar por título" />
+            <ul id="posts"></ul>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="post.js"></script>
+    <script src="coments.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
