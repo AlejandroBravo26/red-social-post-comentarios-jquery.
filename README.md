@@ -31,5 +31,9 @@ El proyecto está dividido en varios archivos para mantener la claridad y modula
   - `posts.js`: Módulo para gestionar publicaciones.
   - `comments.js`: Módulo para gestionar comentarios.
 
+## Integrantes del Grupo
 
+- Acosta Loor María Belén
+- Chasi Cabascango María Rosario
+- Bravo Quijije Nixon Alejandro
 
